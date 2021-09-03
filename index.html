@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="icon" sizes="192x192" href="https://img.icons8.com/dusk/64/000000/sudoku.png">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="text/javascript" src="./assets/script.js"></script>
+</head>
+<body>
+    <h1 class="heading">Sudoku</h1>
+    <!--Game-setupp-->
+    <div class="setupp">
+        <div class="diff">
+            <button class="diffbtn" id="easydiff" onClick="changeDifficulty(1)">Easy</button>
+            <button class="diffbtn" id="mediumdiff" onClick="changeDifficulty(2)">Medium</button>
+            <button class="diffbtn" id="harddiff" onClick="changeDifficulty(3)">Hard</button>
+        </div>
+    </div>
+    <!--End of Game setupp-->
+    <!--Game-->
+    <div class="game">
+        <div id="boardd"></div>       
+    </div>
+    <div class="revsal">
+        <center><button class="val" onClick="validate()">Validate</button></center>
+        <br>
+        <center><button class="val" onClick="reset()">Reset</button></center>
+        </div>
+    <!--End of Game-->
+</body>
+</html>
