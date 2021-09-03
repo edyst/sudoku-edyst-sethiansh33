@@ -48,11 +48,11 @@ html {
     justify-self: center;
     width: auto;
     width: 100px;
-    height: 30px;
+    height: 33px;
     border-radius: 5px;
     border: 1px solid black;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #easydiff {
